@@ -1,0 +1,28 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+section {
+  margin: .5em;
+  padding: 1em;
+  background: gainsboro;
+  border-radius: .25em;
+}
+section > * {
+  margin: 0;
+}
+section > * + * {
+  margin-top: .5em;
+}
+ 
+h1 {
+  color: steelblue;
+  border-bottom: 1px dotted;
+}
+ 
+ul {
+  list-style: none;
+  padding-left: 0;
+  line-height: 1.5em;
+}
